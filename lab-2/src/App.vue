@@ -6,15 +6,13 @@
     <login-footer v-if="$route.name === 'login'"/>
     <app-footer v-else-if="$route.name !== 'login'"/>
   </div>
-
-
 </template>
 
 <script>
-import AppHeader from '@/components/app-header.vue'
-import AppFooter from '@/components/app-footer.vue'
-import LoginHeader from '@/components/login-header.vue'
-import LoginFooter from '@/components/login-footer.vue'
+import AppHeader from '@/components/App/app-header.vue'
+import AppFooter from '@/components/App/app-footer.vue'
+import LoginHeader from '@/components/Login/login-header.vue'
+import LoginFooter from '@/components/Login/login-footer.vue'
 
 export default {
   components: { AppHeader, AppFooter, LoginHeader, LoginFooter},

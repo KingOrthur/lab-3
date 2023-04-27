@@ -43,209 +43,8 @@
         <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9">
           <button type="button" class="col-xs-12 col-sm-12 col-md-12 col-lg-12 btn btn-danger high-btn w-100 mb-5">Товары из рекламы</button>
           <div class="products row">
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-              <a href="#">
-                <div class="card" style="width: auto; ">
-                  <img src="/img/clocks2.png" class="card-img-top">
-                  <div class="card-body p-0 pt-1 pb-3">
-                    <div class="item-text">
-                      <h6 class="card-title mb-1">Часы купили ывавыаывываавывав ываыв цук  3432534 ыувк</h6>
-                    </div>
-                    <div class="price-container mb-1">
-                      <div class="rate">☆ 5.0</div>
-                      <div class="bought-by">403 купили</div>
-                    </div>
-                    <div class="price">312,5 руб.</div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-              <a href="#">
-                <div class="card" style="width: auto; ">
-                  <img src="/img/clocks2.png" class="card-img-top">
-                  <div class="card-body p-0 pt-1 pb-3">
-                    <div class="item-text">
-                      <h6 class="card-title mb-1">Часы купили ывавыаывываавывав ываыв цук  3432534 ыувк</h6>
-                    </div>
-                    <div class="price-container mb-1">
-                      <div class="rate">☆ 5.0</div>
-                      <div class="bought-by">403 купили</div>
-                    </div>
-                    <div class="price">312,5 руб.</div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-              <a href="#">
-                <div class="card" style="width: auto; ">
-                  <img src="/img/clocks2.png" class="card-img-top">
-                  <div class="card-body p-0 pt-1 pb-3">
-                    <div class="item-text">
-                      <h6 class="card-title mb-1">Часы купили ывавыаывываавывав ываыв цук  3432534 ыувк</h6>
-                    </div>
-                    <div class="price-container mb-1">
-                      <div class="rate">☆ 5.0</div>
-                      <div class="bought-by">403 купили</div>
-                    </div>
-                    <div class="price">312,5 руб.</div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-              <a href="#">
-                <div class="card" style="width: auto; ">
-                  <img src="/img/clocks2.png" class="card-img-top">
-                  <div class="card-body p-0 pt-1 pb-3">
-                    <div class="item-text">
-                      <h6 class="card-title mb-1">Часы купили ывавыаывываавывав ываыв цук  3432534 ыувк</h6>
-                    </div>
-                    <div class="price-container mb-1">
-                      <div class="rate">☆ 5.0</div>
-                      <div class="bought-by">403 купили</div>
-                    </div>
-                    <div class="price">312,5 руб.</div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-              <a href="#">
-                <div class="card" style="width: auto; ">
-                  <img src="/img/clocks2.png" class="card-img-top">
-                  <div class="card-body p-0 pt-1 pb-3">
-                    <div class="item-text">
-                      <h6 class="card-title mb-1">Часы купили ывавыаывываавывав ываыв цук  3432534 ыувк</h6>
-                    </div>
-                    <div class="price-container mb-1">
-                      <div class="rate">☆ 5.0</div>
-                      <div class="bought-by">403 купили</div>
-                    </div>
-                    <div class="price">312,5 руб.</div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-              <a href="#">
-                <div class="card" style="width: auto; ">
-                  <img src="/img/clocks2.png" class="card-img-top">
-                  <div class="card-body p-0 pt-1 pb-3">
-                    <div class="item-text">
-                      <h6 class="card-title mb-1">Часы купили ывавыаывываавывав ываыв цук  3432534 ыувк</h6>
-                    </div>
-                    <div class="price-container mb-1">
-                      <div class="rate">☆ 5.0</div>
-                      <div class="bought-by">403 купили</div>
-                    </div>
-                    <div class="price">312,5 руб.</div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-              <a href="#">
-                <div class="card" style="width: auto; ">
-                  <img src="/img/clocks2.png" class="card-img-top">
-                  <div class="card-body p-0 pt-1 pb-3">
-                    <div class="item-text">
-                      <h6 class="card-title mb-1">Часы купили ывавыаывываавывав ываыв цук  3432534 ыувк</h6>
-                    </div>
-                    <div class="price-container mb-1">
-                      <div class="rate">☆ 5.0</div>
-                      <div class="bought-by">403 купили</div>
-                    </div>
-                    <div class="price">312,5 руб.</div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-              <a href="#">
-                <div class="card" style="width: auto; ">
-                  <img src="/img/clocks2.png" class="card-img-top">
-                  <div class="card-body p-0 pt-1 pb-3">
-                    <div class="item-text">
-                      <h6 class="card-title mb-1">Часы купили ывавыаывываавывав ываыв цук  3432534 ыувк</h6>
-                    </div>
-                    <div class="price-container mb-1">
-                      <div class="rate">☆ 5.0</div>
-                      <div class="bought-by">403 купили</div>
-                    </div>
-                    <div class="price">312,5 руб.</div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-              <a href="#">
-                <div class="card" style="width: auto; ">
-                  <img src="/img/clocks2.png" class="card-img-top">
-                  <div class="card-body p-0 pt-1 pb-3">
-                    <div class="item-text">
-                      <h6 class="card-title mb-1">Часы купили ывавыаывываавывав ываыв цук  3432534 ыувк</h6>
-                    </div>
-                    <div class="price-container mb-1">
-                      <div class="rate">☆ 5.0</div>
-                      <div class="bought-by">403 купили</div>
-                    </div>
-                    <div class="price">312,5 руб.</div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-              <a href="#">
-                <div class="card" style="width: auto; ">
-                  <img src="/img/clocks2.png" class="card-img-top">
-                  <div class="card-body p-0 pt-1 pb-3">
-                    <div class="item-text">
-                      <h6 class="card-title mb-1">Часы купили ывавыаывываавывав ываыв цук  3432534 ыувк</h6>
-                    </div>
-                    <div class="price-container mb-1">
-                      <div class="rate">☆ 5.0</div>
-                      <div class="bought-by">403 купили</div>
-                    </div>
-                    <div class="price">312,5 руб.</div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-              <a href="#">
-                <div class="card" style="width: auto; ">
-                  <img src="/img/clocks2.png" class="card-img-top">
-                  <div class="card-body p-0 pt-1 pb-3">
-                    <div class="item-text">
-                      <h6 class="card-title mb-1">Часы купили ывавыаывываавывав ываыв цук  3432534 ыувк</h6>
-                    </div>
-                    <div class="price-container mb-1">
-                      <div class="rate">☆ 5.0</div>
-                      <div class="bought-by">403 купили</div>
-                    </div>
-                    <div class="price">312,5 руб.</div>
-                  </div>
-                </div>
-              </a>
-            </div>
-            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3">
-              <a href="#">
-                <div class="card" style="width: auto; ">
-                  <img src="/img/clocks2.png" class="card-img-top">
-                  <div class="card-body p-0 pt-1 pb-3">
-                    <div class="item-text">
-                      <h6 class="card-title mb-1">Часы купили ывавыаывываавывав ываыв цук  3432534 ыувк</h6>
-                    </div>
-                    <div class="price-container mb-1">
-                      <div class="rate">☆ 5.0</div>
-                      <div class="bought-by">403 купили</div>
-                    </div>
-                    <div class="price">312,5 руб.</div>
-                  </div>
-                </div>
-              </a>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 mb-3" v-for="item in items">
+              <ProductItem :product="item"></ProductItem>
             </div>
           </div>
         </div>
@@ -258,9 +57,26 @@
 // @ is an alias to /src
 
 
+import ProductItem from "@/components/Product/ProductItem.vue";
+
 export default {
   name: 'HomeView',
   components: {
+    ProductItem
+  },
+  data() {
+    return {
+      items: [
+        {name: 'Часы 1', rating: '5.0', boughtby: 302, price: '432,65'},
+        {name: 'Часы 2', rating: '4.0', boughtby: 300, price: '4320,65'},
+        {name: 'Часы 3', rating: '3.2', boughtby: 400, price: '43,65'},
+        {name: 'Часы 4', rating: '4.4', boughtby: 350, price: '6632,65'},
+        {name: 'Часы 1', rating: '5.0', boughtby: 302, price: '432,65'},
+        {name: 'Часы 2', rating: '4.0', boughtby: 300, price: '4320,65'},
+        {name: 'Часы 3', rating: '3.2', boughtby: 400, price: '43,65'},
+        {name: 'Часы 4', rating: '4.4', boughtby: 350, price: '6632,65'},
+      ]
+    }
   }
 }
 </script>
