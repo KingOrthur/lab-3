@@ -23,7 +23,9 @@
             <li class="nav-item cart-img">
               <img src="/img/cart.png"/>
               &nbsp;
-              <b>{{ this.$store.getters.getCount }}</b>
+              <b v-show="this.$store.getters.getCount > 0">
+                {{ this.$store.getters.getCount }}
+              </b>
             </li>
           </ul>
         </div>

@@ -21,8 +21,8 @@
           <div class="price" style="font-size: 25px; font-weight: bold">{{ product.price }} руб.</div>
         </div>
         <div>
-          <button class="btn btn-danger w-25" @click="addToCart" v-show="!getInCart()">В корзину</button>
-          <button class="btn btn-success w-25" @click="addToCart" v-show="getInCart()">Добавлен</button>
+          <button class="btn btn-danger w-25" @click="addToCart" v-show="!this.product.inCart">В корзину</button>
+          <button class="btn btn-success w-25" @click="addToCart" v-show="this.product.inCart">Добавлен</button>
         </div>
       </div>
     </div>
@@ -36,12 +36,14 @@ export default {
   name: "CardInfoView",
   methods: {
     addToCart(){
-
+      this.$store.commit('add', this.product.id)
+      this.product.inCart = true
     },
     getInCart(){
 
     },
   },
+
   data() {
     return {
       id: null,

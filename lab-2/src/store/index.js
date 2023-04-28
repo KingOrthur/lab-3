@@ -10,6 +10,10 @@ export default createStore({
   },
   getters: {
     getCount(state){
+      const data = localStorage.getItem('cart')
+      if (data !== null) {
+        state.cart = JSON.parse(data)
+      }
       return state.cart.count
     }
   },
@@ -17,6 +21,7 @@ export default createStore({
     add(state, productId) {
       state.cart.count++
       state.cart.items.push(productId)
+      localStorage.setItem('cart', JSON.stringify(state.cart))
     }
 
   },
