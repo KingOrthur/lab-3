@@ -15,13 +15,15 @@
           </ul>
           <ul class="navbar-nav mb-2 mb-lg-0" style="margin-left: auto">
             <li class="nav-item">
-              <router-link to="login" class="nav-link">Войти</router-link>
+              <router-link :to="{name: 'login'}" class="nav-link">Войти</router-link>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Заказы</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Корзина</a>
+            <li class="nav-item cart-img">
+              <img src="/img/cart.png"/>
+              &nbsp;
+              <b>{{ count }}</b>
             </li>
           </ul>
         </div>
@@ -32,8 +34,14 @@
 
 <script>
 export default {
-  name: "app-header"
+  name: "app-header",
+  data(){
+    return {
+      count: 10
+    }
+  }
 }
+
 </script>
 
 <style scoped>

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <a href="#">
+    <router-link :to="{name: 'cardinfo', params: {id: product.id}}">
       <div class="card" style="width: auto; ">
         <img src="/img/clocks2.png" class="card-img-top">
         <div class="card-body p-0 pt-1 pb-3">
@@ -14,13 +14,20 @@
           <div class="price">{{ product.price }} руб.</div>
         </div>
       </div>
-    </a>
+    </router-link>
   </div>
 </template>
 
 <script>
+import cardInfoView from "@/views/CardInfoView.vue";
+
 export default {
   name: "ProductItem",
+  computed: {
+    cardInfoView() {
+      return cardInfoView
+    }
+  },
   props: ['product'],
 }
 </script>

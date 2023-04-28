@@ -67,14 +67,14 @@ export default {
   data() {
     return {
       items: [
-        {name: 'Часы 1', rating: '5.0', boughtby: 302, price: '432,65'},
-        {name: 'Часы 2', rating: '4.0', boughtby: 300, price: '4320,65'},
-        {name: 'Часы 3', rating: '3.2', boughtby: 400, price: '43,65'},
-        {name: 'Часы 4', rating: '4.4', boughtby: 350, price: '6632,65'},
-        {name: 'Часы 1', rating: '5.0', boughtby: 302, price: '432,65'},
-        {name: 'Часы 2', rating: '4.0', boughtby: 300, price: '4320,65'},
-        {name: 'Часы 3', rating: '3.2', boughtby: 400, price: '43,65'},
-        {name: 'Часы 4', rating: '4.4', boughtby: 350, price: '6632,65'},
+        {id: 1, name: 'Часы 1', rating: '5.0', boughtby: 302, price: '432,65'},
+        {id: 2, name: 'Часы 2', rating: '4.0', boughtby: 300, price: '4320,65'},
+        {id: 3, name: 'Часы 3', rating: '3.2', boughtby: 400, price: '43,65'},
+        {id: 4, name: 'Часы 4', rating: '4.4', boughtby: 350, price: '6632,65'},
+        {id: 5, name: 'Часы 1', rating: '5.0', boughtby: 302, price: '432,65'},
+        {id: 6, name: 'Часы 2', rating: '4.0', boughtby: 300, price: '4320,65'},
+        {id: 7, name: 'Часы 3', rating: '3.2', boughtby: 400, price: '43,65'},
+        {id: 8, name: 'Часы 4', rating: '4.4', boughtby: 350, price: '6632,65'},
       ]
     }
   }

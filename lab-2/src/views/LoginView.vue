@@ -7,21 +7,19 @@
       <div class="line-input"></div>
       <form @submit="loginForm">
         <div class="authorize-phone">
-          <a href="">Вход по телефону</a>
+          <router-link :to="{name: 'home'}">Вход по телефону</router-link>
         </div>
-
         <div class="mt-2 mb-3 email-container">
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Адрес эл.почты" v-model="email">
-          <div class="errors">{{emailError}}</div>
+          <div class="errors" style="color: red">{{emailError}}</div>
         </div>
         <div class="mb-3 password-container">
           <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Пароль" v-model="password">
-          <div class="errors">{{passwordError}}</div>
+          <div class="errors" style="color: red">{{passwordError}}</div>
         </div>
-
         <button type="submit" class="btn btn-primary mt-4 mb-3 w-100">Войти</button>
-        <div class="authorize-password">
-          <a href="">Забыли пароль?</a>
+        <div class="authorize-password" >
+          <router-link :to="{name: 'home'}">Забыли пароль?</router-link>
         </div>
         <div class="authorize-networks mt-4 mb-3">
           <div class="decorator mb-1"></div>
@@ -55,8 +53,8 @@
       </form>
       <div class="ending-text">
         Регистрируясь на сайте или авторизуясь через социальные сети, вы соглашаетесь с
-        <a href="">Пользовательским соглашением</a> и
-        <a href="">Политикой конфиденциальности</a>
+        <router-link :to="{name: 'home'}">Пользовательским соглашением</router-link> и
+          <router-link :to="{name: 'home'}">Политикой конфиденциальности</router-link>
       </div>
     </div>
   </main>

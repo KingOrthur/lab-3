@@ -21,7 +21,7 @@ const routes = [
     component: CatalogView
   },
   {
-    path: '/cardinfo',
+    path: '/cardinfo/:id',
     name: 'cardinfo',
     component: CardInfoView
   }

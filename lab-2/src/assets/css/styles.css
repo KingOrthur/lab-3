@@ -23,6 +23,8 @@ header{
 body{
     background-color: white;
     font-family: 'Inter', sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
 .card{
@@ -60,13 +62,11 @@ footer{
     background-color: rgba(34,34,34,.12);
     font-family: 'Inter', sans-serif;
     font-weight: normal;
-
 }
 footer .container{
     justify-content: space-between;
     display: flex;
     position: inherit;
-
 }
 
 .authorize{
@@ -201,4 +201,15 @@ li a{
 .products a{
     text-decoration: none;
     color:inherit;
+}
+
+.cart-img {
+    display: flex;
+    align-items: center;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+.cart-img img{
+    width: 25px;
+
 }
