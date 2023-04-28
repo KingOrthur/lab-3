@@ -23,7 +23,7 @@
             <li class="nav-item cart-img">
               <img src="/img/cart.png"/>
               &nbsp;
-              <b>{{ count }}</b>
+              <b>{{ this.$store.getters.getCount }}</b>
             </li>
           </ul>
         </div>
@@ -35,11 +35,6 @@
 <script>
 export default {
   name: "app-header",
-  data(){
-    return {
-      count: 10
-    }
-  }
 }
 
 </script>
