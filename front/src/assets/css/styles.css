@@ -45,7 +45,7 @@ body{
     display: flex;
 }
 
-.products .price-container .bought-by{
+.products .price-container .bought_times{
     margin-left: 0.5rem;
 }
 

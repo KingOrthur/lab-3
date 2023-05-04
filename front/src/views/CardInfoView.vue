@@ -16,7 +16,7 @@
             <br><br>Миссия часовой компании «7 часов» - быть вашим безупречным экспертом в мире часов. Дарить эмоции удовольствия и успеха через уникальное творение - часы, которое всегда с вами. Время - это одно из самых ценных даров человеку, которым он распоряжается по своему усмотрению, отражая свою индивидуальность и характер.</p>
           <div class="price-container mt-4 mb-4">
             <div class="rate">☆ {{ product.rating }}</div>
-            <div class="bought-by">Купили {{ product.boughtby}}</div>
+            <div class="bought_times">Купили {{ product.bought_times}} раз</div>
           </div>
           <div class="price" style="font-size: 25px; font-weight: bold">{{ product.price }} руб.</div>
         </div>
@@ -47,7 +47,7 @@ export default {
   data() {
     return {
       id: null,
-      product: {id: 1, name: 'Часы 1', rating: '5.0', boughtby: 302, price: '432,65'}
+      product: {id: 1, name: 'Часы 1', rating: '5.0', bought_times: 301, price: '432,65'}
     }
   },
   created() {

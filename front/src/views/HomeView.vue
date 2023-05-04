@@ -67,14 +67,14 @@ export default {
   data() {
     return {
       items: [
-        {id: 1, name: 'Часы 1', rating: '5.0', boughtby: 302, price: '432,65', inCart: false},
-        {id: 2, name: 'Часы 2', rating: '4.0', boughtby: 300, price: '4320,65', inCart: false},
-        {id: 3, name: 'Часы 3', rating: '3.2', boughtby: 400, price: '43,65', inCart: false},
-        {id: 4, name: 'Часы 4', rating: '4.4', boughtby: 350, price: '6632,65', inCart: false},
-        {id: 5, name: 'Часы 1', rating: '5.0', boughtby: 302, price: '432,65', inCart: false},
-        {id: 6, name: 'Часы 2', rating: '4.0', boughtby: 300, price: '4320,65', inCart: false},
-        {id: 7, name: 'Часы 3', rating: '3.2', boughtby: 400, price: '43,65', inCart: false},
-        {id: 8, name: 'Часы 4', rating: '4.4', boughtby: 350, price: '6632,65', inCart: false},
+        {id: 1, name: 'Часы 1', rating: '2.5', bought_times: 301, price: '432,65', inCart: false},
+        {id: 2, name: 'Часы 2', rating: '4.6', bought_times: 302, price: '4320,65', inCart: false},
+        {id: 3, name: 'Часы 3', rating: '3.2', bought_times: 403, price: '43,65', inCart: false},
+        {id: 4, name: 'Часы 4', rating: '4.4', bought_times: 354, price: '6632,65', inCart: false},
+        {id: 5, name: 'Часы 5', rating: '1.0', bought_times: 305, price: '5000', inCart: false},
+        {id: 6, name: 'Часы 6', rating: '2.0', bought_times: 306, price: '6000,65', inCart: false},
+        {id: 7, name: 'Часы 7', rating: '3.0', bought_times: 407, price: '7003,65', inCart: false},
+        {id: 8, name: 'Часы 8', rating: '4.0', bought_times: 358, price: '8032,65', inCart: false},
       ]
     }
   }
